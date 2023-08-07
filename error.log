@@ -1,0 +1,40 @@
+{"httpCode":400,"isOperational":true,"level":"error","name":"Error"}
+2023-04-25T17:47:31.250Z error: must have required property 'author'
+2023-04-25T17:57:09.813Z error: must have required property 'author'
+2023-04-25T17:57:10.540Z error: must have required property 'author'
+2023-04-25T17:57:23.389Z error: must match format "email"
+2023-04-25T18:01:06.130Z error: must match format "email"
+2023-04-25T18:01:13.779Z error: must have required property 'author',must have required property 'content',must have required property 'title'
+2023-04-25T18:01:43.206Z error: must have required property 'author',must have required property 'content',must have required property 'title'
+2023-04-25T18:02:05.713Z error: must have required property 'author',must have required property 'content',must have required property 'title'
+2023-04-25T18:04:00.770Z error: stream is not readable
+2023-04-25T18:04:12.200Z error: stream is not readable
+2023-04-25T18:04:22.379Z error: stream is not readable
+2023-04-25T18:04:54.634Z error: must have required property 'author',must have required property 'content',must have required property 'title'
+2023-04-25T18:04:57.849Z error: stream is not readable
+2023-04-25T18:05:11.355Z error: must match format "email"
+2023-04-25T18:05:14.300Z error: must have required property 'author',must have required property 'content',must have required property 'title'
+2023-04-25T18:10:46.739Z error: must be object
+2023-04-25T18:14:47.102Z error: must be object
+2023-04-25T18:14:58.389Z error: must match format "email"
+2023-04-25T18:15:31.502Z error: must match format "email"
+2023-04-25T18:15:56.167Z error: must match format "email"
+2023-04-25T18:16:05.781Z error: must be object
+2023-04-25T18:19:03.309Z error: must match format "email"
+2023-04-25T18:19:23.229Z error: must match format "email"
+2023-08-06T19:31:57.887Z error: Cannot read properties of undefined (reading 'includes')
+2023-08-06T19:38:12.081Z error: Cannot read properties of undefined (reading 'includes')
+2023-08-06T19:39:15.697Z error: Cannot read properties of undefined (reading 'includes')
+2023-08-06T19:40:01.982Z error: Cannot read properties of undefined (reading 'includes')
+2023-08-06T19:40:04.031Z error: Cannot read properties of undefined (reading 'includes')
+2023-08-06T19:40:05.421Z error: Cannot read properties of undefined (reading 'includes')
+2023-08-06T19:40:40.973Z error: Cannot read properties of undefined (reading 'includes')
+2023-08-07T18:57:14.781Z error: Cannot destructure property 'finded' of '(intermediate value)(intermediate value)(intermediate value)' as it is null.
+2023-08-07T19:12:20.430Z error: Cannot read properties of null (reading 'finded')
+2023-08-07T19:47:46.746Z error: Cannot read properties of null (reading 'finded')
+2023-08-07T19:47:58.032Z error: Cannot read properties of null (reading 'finded')
+2023-08-07T19:51:49.750Z error: Cannot read properties of null (reading 'finded')
+2023-08-07T20:02:18.513Z error: Cannot read properties of null (reading 'finded')
+2023-08-07T20:05:01.822Z error: Cannot read properties of undefined (reading 'includes')
+2023-08-07T20:05:04.763Z error: Cannot read properties of undefined (reading 'includes')
+2023-08-07T20:05:06.104Z error: Cannot read properties of undefined (reading 'includes')

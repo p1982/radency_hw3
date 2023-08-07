@@ -1,0 +1,163 @@
+{"level":"info","message":"POST:/posts"}
+{"httpCode":400,"isOperational":true,"level":"error","name":"Error"}
+{"level":"info","message":"GET:/posts"}
+{"level":"info","message":"POST:/posts"}
+{"level":"info","message":{"content":"My content","title":"My title"}}
+2023-04-25T17:41:12.743Z [right meow!] info: POST:/posts
+2023-04-25T17:41:12.749Z [right meow!] info: [object Object]
+2023-04-25T17:43:12.820Z info: POST:/posts
+2023-04-25T17:43:12.823Z info: [object Object]
+2023-04-25T17:43:30.659Z info: POST:/posts
+2023-04-25T17:43:30.663Z info: [object Object]
+2023-04-25T17:44:00.473Z info: POST:/posts
+2023-04-25T17:44:00.475Z info: [object Object]
+2023-04-25T17:44:20.894Z info: POST:/posts
+2023-04-25T17:44:20.896Z info: {"title":"My title","content":"My content"}
+2023-04-25T17:45:05.061Z info: POST:/posts
+2023-04-25T17:45:05.064Z info: [object Object]
+2023-04-25T17:46:00.918Z info: POST:/posts
+2023-04-25T17:46:29.682Z info: POST:/posts
+2023-04-25T17:46:29.687Z info: {"title":"My title","content":"My content"}
+2023-04-25T17:47:31.246Z info: POST:/posts
+2023-04-25T17:47:31.249Z info: {"title":"My title","content":"My content"}
+2023-04-25T17:47:31.250Z error: must have required property 'author'
+2023-04-25T17:57:09.810Z info: POST:/posts
+2023-04-25T17:57:09.812Z info: {"title":"My title","content":"My content"}
+2023-04-25T17:57:09.813Z error: must have required property 'author'
+2023-04-25T17:57:10.539Z info: POST:/posts
+2023-04-25T17:57:10.539Z info: {"title":"My title","content":"My content"}
+2023-04-25T17:57:10.540Z error: must have required property 'author'
+2023-04-25T17:57:23.388Z info: POST:/posts
+2023-04-25T17:57:23.389Z info: {"title":"My title","content":"My content","author":"Bob"}
+2023-04-25T17:57:23.389Z error: must match format "email"
+2023-04-25T18:01:06.126Z info: POST:/posts
+2023-04-25T18:01:06.129Z info: {"title":"My title","content":"My content","author":"Bob"}
+2023-04-25T18:01:06.130Z error: must match format "email"
+2023-04-25T18:01:13.776Z info: POST:/posts
+2023-04-25T18:01:13.777Z info: {}
+2023-04-25T18:01:13.779Z error: must have required property 'author',must have required property 'content',must have required property 'title'
+2023-04-25T18:01:43.202Z info: POST:/posts
+2023-04-25T18:01:43.205Z info: {}
+2023-04-25T18:01:43.206Z error: must have required property 'author',must have required property 'content',must have required property 'title'
+2023-04-25T18:02:05.709Z info: POST:/posts
+2023-04-25T18:02:05.711Z info: {}
+2023-04-25T18:02:05.712Z info: {"author":"bob","title":"My title","content":"My content"}
+2023-04-25T18:02:05.713Z error: must have required property 'author',must have required property 'content',must have required property 'title'
+2023-04-25T18:04:00.770Z error: stream is not readable
+2023-04-25T18:04:12.200Z error: stream is not readable
+2023-04-25T18:04:22.379Z error: stream is not readable
+2023-04-25T18:04:54.631Z info: POST:/posts
+2023-04-25T18:04:54.632Z info: {}
+2023-04-25T18:04:54.633Z info: {"author":"bob","title":"My title","content":"My content"}
+2023-04-25T18:04:54.634Z error: must have required property 'author',must have required property 'content',must have required property 'title'
+2023-04-25T18:04:57.849Z error: stream is not readable
+2023-04-25T18:05:11.350Z info: POST:/posts
+2023-04-25T18:05:11.353Z info: {"title":"My title","content":"My content","author":"Bob"}
+2023-04-25T18:05:11.353Z info: undefined
+2023-04-25T18:05:11.355Z error: must match format "email"
+2023-04-25T18:05:14.299Z info: POST:/posts
+2023-04-25T18:05:14.299Z info: {}
+2023-04-25T18:05:14.299Z info: undefined
+2023-04-25T18:05:14.300Z error: must have required property 'author',must have required property 'content',must have required property 'title'
+2023-04-25T18:10:46.736Z info: POST:/posts
+2023-04-25T18:10:46.738Z info: undefined
+2023-04-25T18:10:46.738Z info: undefined
+2023-04-25T18:10:46.739Z error: must be object
+2023-04-25T18:14:47.097Z info: POST:/posts
+2023-04-25T18:14:47.100Z info: undefined
+2023-04-25T18:14:47.100Z info: {"author":"bob","title":"My title","content":"My content"}
+2023-04-25T18:14:47.102Z error: must be object
+2023-04-25T18:14:58.386Z info: POST:/posts
+2023-04-25T18:14:58.387Z info: {"title":"My title","content":"My content","author":"Bob"}
+2023-04-25T18:14:58.388Z info: undefined
+2023-04-25T18:14:58.389Z error: must match format "email"
+2023-04-25T18:15:31.495Z info: POST:/posts
+2023-04-25T18:15:31.499Z info: BODY
+2023-04-25T18:15:31.500Z info: FIELDS
+2023-04-25T18:15:31.502Z error: must match format "email"
+2023-04-25T18:15:56.161Z info: POST:/posts
+2023-04-25T18:15:56.165Z info: BODY:[object Object]
+2023-04-25T18:15:56.165Z info: FIELDS:undefined
+2023-04-25T18:15:56.167Z error: must match format "email"
+2023-04-25T18:16:05.779Z info: POST:/posts
+2023-04-25T18:16:05.780Z info: BODY:undefined
+2023-04-25T18:16:05.780Z info: FIELDS:[object Object]
+2023-04-25T18:16:05.781Z error: must be object
+2023-04-25T18:19:03.302Z info: POST:/posts
+2023-04-25T18:19:03.307Z info: BODY:[object Object]
+2023-04-25T18:19:03.307Z info: FIELDS:[object Object]
+2023-04-25T18:19:03.309Z error: must match format "email"
+2023-04-25T18:19:16.516Z info: POST:/posts
+2023-04-25T18:19:16.517Z info: BODY:[object Object]
+2023-04-25T18:19:16.517Z info: FIELDS:[object Object]
+2023-04-25T18:19:23.226Z info: POST:/posts
+2023-04-25T18:19:23.227Z info: BODY:[object Object]
+2023-04-25T18:19:23.228Z info: FIELDS:undefined
+2023-04-25T18:19:23.229Z error: must match format "email"
+2023-04-25T18:19:36.217Z info: POST:/posts
+2023-04-25T18:19:36.218Z info: BODY:[object Object]
+2023-04-25T18:19:36.218Z info: FIELDS:undefined
+2023-08-06T12:02:56.525Z info: GET:/
+2023-08-06T12:03:26.800Z info: GET:/posts
+2023-08-06T18:52:15.579Z info: GET:/notes
+2023-08-06T19:24:32.306Z info: POST:/notes
+2023-08-06T19:24:32.318Z info: BODY:[object Object]
+2023-08-06T19:24:32.320Z info: FIELDS:undefined
+2023-08-06T19:31:57.887Z error: Cannot read properties of undefined (reading 'includes')
+2023-08-06T19:38:12.081Z error: Cannot read properties of undefined (reading 'includes')
+2023-08-06T19:39:15.697Z error: Cannot read properties of undefined (reading 'includes')
+2023-08-06T19:40:01.982Z error: Cannot read properties of undefined (reading 'includes')
+2023-08-06T19:40:04.031Z error: Cannot read properties of undefined (reading 'includes')
+2023-08-06T19:40:05.421Z error: Cannot read properties of undefined (reading 'includes')
+2023-08-06T19:40:40.973Z error: Cannot read properties of undefined (reading 'includes')
+2023-08-06T19:41:39.594Z info: GET:/notes
+2023-08-06T19:41:46.263Z info: GET:/notes/1
+2023-08-06T19:42:28.541Z info: GET:/notes/1
+2023-08-06T19:51:09.351Z info: GET:/notes/1
+2023-08-06T19:51:17.903Z info: GET:/notes/23
+2023-08-06T19:52:08.547Z info: GET:/notes/23
+2023-08-07T14:46:23.886Z info: PATCH:/notes/25
+2023-08-07T14:46:23.901Z info: BODY:[object Object]
+2023-08-07T14:46:23.902Z info: FIELDS:undefined
+2023-08-07T18:53:42.296Z info: DELETE:/notes/25
+2023-08-07T18:53:58.306Z info: GET:/notes/
+2023-08-07T18:54:11.541Z info: GET:/notes/
+2023-08-07T18:55:16.751Z info: GET:/notes/
+2023-08-07T18:55:28.574Z info: GET:/notes/1
+2023-08-07T18:57:06.411Z info: POST:/notes/1
+2023-08-07T18:57:14.763Z info: POST:/notes/
+2023-08-07T18:57:14.769Z info: BODY:[object Object]
+2023-08-07T18:57:14.772Z info: FIELDS:undefined
+2023-08-07T18:57:14.781Z error: Cannot destructure property 'finded' of '(intermediate value)(intermediate value)(intermediate value)' as it is null.
+2023-08-07T19:12:20.413Z info: POST:/notes/
+2023-08-07T19:12:20.424Z info: BODY:[object Object]
+2023-08-07T19:12:20.427Z info: FIELDS:undefined
+2023-08-07T19:12:20.430Z error: Cannot read properties of null (reading 'finded')
+2023-08-07T19:47:46.731Z info: POST:/notes/
+2023-08-07T19:47:46.739Z info: BODY:[object Object]
+2023-08-07T19:47:46.741Z info: FIELDS:undefined
+2023-08-07T19:47:46.746Z error: Cannot read properties of null (reading 'finded')
+2023-08-07T19:47:58.028Z info: POST:/notes/
+2023-08-07T19:47:58.029Z info: BODY:[object Object]
+2023-08-07T19:47:58.030Z info: FIELDS:undefined
+2023-08-07T19:47:58.032Z error: Cannot read properties of null (reading 'finded')
+2023-08-07T19:51:49.734Z info: POST:/notes/
+2023-08-07T19:51:49.742Z info: BODY:[object Object]
+2023-08-07T19:51:49.744Z info: FIELDS:undefined
+2023-08-07T19:51:49.750Z error: Cannot read properties of null (reading 'finded')
+2023-08-07T20:02:18.498Z info: POST:/notes/
+2023-08-07T20:02:18.504Z info: BODY:[object Object]
+2023-08-07T20:02:18.508Z info: FIELDS:undefined
+2023-08-07T20:02:18.513Z error: Cannot read properties of null (reading 'finded')
+2023-08-07T20:03:03.494Z info: POST:/notes/
+2023-08-07T20:03:03.501Z info: BODY:[object Object]
+2023-08-07T20:03:03.503Z info: FIELDS:undefined
+2023-08-07T20:03:22.602Z info: PATCH:/notes/
+2023-08-07T20:03:34.090Z info: PATCH:/notes/25
+2023-08-07T20:03:34.093Z info: BODY:[object Object]
+2023-08-07T20:03:34.093Z info: FIELDS:undefined
+2023-08-07T20:04:25.114Z info: DELETE:/notes/25
+2023-08-07T20:04:38.251Z info: GET:/notes
+2023-08-07T20:05:01.822Z error: Cannot read properties of undefined (reading 'includes')
+2023-08-07T20:05:04.763Z error: Cannot read properties of undefined (reading 'includes')
+2023-08-07T20:05:06.104Z error: Cannot read properties of undefined (reading 'includes')
