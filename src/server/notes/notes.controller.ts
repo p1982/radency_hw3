@@ -41,13 +41,13 @@ class NotesController {
     //   filter: request.query.filter || {},
     // };
     const params = request.query.stats
-    const pagedPosts = this.notesService.getAllNotes(params);
-    response.send(pagedPosts);
+    const pagedNotes = this.notesService.getAllNotes(params);
+    response.send(pagedNotes);
   };
 
   getNoteById = (request: express.Request, response: express.Response) => {
-    const pagedPosts = this.notesService.getNoteById(request.params.id);
-    response.send(pagedPosts);
+    const pagedNotes = this.notesService.getNoteById(request.params.id);
+    response.send(pagedNotes);
   };
 
   createANote = (request: express.Request, response: express.Response) => {

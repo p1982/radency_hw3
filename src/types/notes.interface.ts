@@ -15,6 +15,3 @@ export interface PagedNotes {
   page: number;
 }
 
-export interface IStats {
-  stats: object
-}

@@ -1,11 +1,11 @@
 import FileDb from "./fileDb";
 
-const newspostSchema = {
+const INotesSchema = {
   id: Number,
   title: String,
   text: String,
   createDate: Date,
 };
 
-FileDb.registerSchema("newspost", newspostSchema);
-const newspostTable = FileDb.getTable("newspost");
+FileDb.registerSchema("notes", INotesSchema);
+const notesSchema = FileDb.getTable("notes");

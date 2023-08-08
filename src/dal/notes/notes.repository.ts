@@ -1,4 +1,4 @@
-import { IStats, Note, PagedNotes } from "../../types/notes.interface";
+import { Note, PagedNotes } from "../../types/notes.interface";
 import Params from "../../types/params.interface";
 import { Service } from "typedi";
 
@@ -112,7 +112,7 @@ class NotesRepository {
     return {finded, index};
   };
 
-  getAllNotes = (params: { [key: string]: IStats }) => {
+  getAllNotes = (params: any) => {
     const notes = [...this.notes];
     
 
@@ -121,7 +121,7 @@ class NotesRepository {
     // if (params.size != null && params.page != null) {
     //   result = result.splice(params.page * params.size, params.size);
     // }
-    if(params.stats){
+    if(params){
       
       const archive =  notes.filter(note=>note.archive)
       const unarchive =  notes.filter(note=>!note.archive)

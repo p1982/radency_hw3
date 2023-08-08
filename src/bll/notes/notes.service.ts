@@ -1,5 +1,5 @@
 import NotesRepository from "../../dal/notes/notes.repository";
-import { Note, PagedNotes, IStats } from "../../types/notes.interface";
+import { Note, PagedNotes } from "../../types/notes.interface";
 import Params from "../../types/params.interface";
 import { Service } from "typedi";
 
@@ -7,7 +7,7 @@ import { Service } from "typedi";
 class NotesService {
   constructor(private notesRepository: NotesRepository) {}
 
-  getAllNotes = (params: { [key: string]: IStats }) => {
+  getAllNotes = (params: any) => {
     return this.notesRepository.getAllNotes(params);
   };
 

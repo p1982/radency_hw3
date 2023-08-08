@@ -161,3 +161,6 @@
 2023-08-07T20:05:01.822Z error: Cannot read properties of undefined (reading 'includes')
 2023-08-07T20:05:04.763Z error: Cannot read properties of undefined (reading 'includes')
 2023-08-07T20:05:06.104Z error: Cannot read properties of undefined (reading 'includes')
+2023-08-08T02:34:30.939Z error: Cannot read properties of undefined (reading 'includes')
+2023-08-08T02:37:09.421Z info: GET:/notes?stats=stats
+2023-08-08T02:37:27.432Z info: GET:/notes

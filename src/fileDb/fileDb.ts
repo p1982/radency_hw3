@@ -1,4 +1,4 @@
-interface Newsposts {
+interface INotes {
   id: number;
   title: string;
 }
@@ -25,16 +25,16 @@ export class Table {
   constructor(schemaFilePath) {
     this.schemaFilePath = schemaFilePath;
   }
-  findAll(): Promise<Newsposts[]> {
+  findAll(): Promise<INotes[]> {
     return Promise.resolve([]);
   }
-  findById(): Promise<Newsposts> {
+  findById(): Promise<INotes> {
     return Promise.resolve({ id: 0, title: "" });
   }
-  create(newData: Newsposts): Promise<Newsposts> {
+  create(newData: INotes): Promise<INotes> {
     return Promise.resolve(newData);
   }
-  update(id: number, updatedData: Newsposts): Promise<Newsposts> {
+  update(id: number, updatedData: INotes): Promise<INotes> {
     return Promise.resolve(updatedData);
   }
   delete(id: number): Promise<number> {
